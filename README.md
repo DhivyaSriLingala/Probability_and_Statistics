@@ -199,10 +199,10 @@ print("Bad prediction loss:", round(cross_entropy_loss(y_true, bad_prediction), 
 
 This combines the same core operations that frameworks such as PyTorch provide in a numerically optimized form. PyTorch's `nn.CrossEntropyLoss` accepts logits directly and internally combines log-softmax with negative log-likelihood.
 
-## Day 1 and Day 2 connection
+## Connecting
 
-- **Day 1 — Linear algebra:** vectors, matrices, transformations, and data shapes
-- **Day 2 — Probability and statistics:** distributions, uncertainty, confidence, and loss
+- **Linear algebra:** vectors, matrices, transformations, and data shapes
+- **Probability and statistics:** distributions, uncertainty, confidence, and loss
 - **Next — Calculus:** gradients and how models improve their parameters
 
 Together, these ideas explain the core training loop: represent data, calculate probabilistic predictions, measure error, and update the parameters.

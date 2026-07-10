@@ -1,4 +1,4 @@
-# Day 2 — Probability & Statistics for Machine Learning
+# Probability & Statistics for Machine Learning
 
 ![Probability and Statistics for ML](./Day-2.png)
 
@@ -44,7 +44,7 @@ Consider `[1, 2, 3, 4, 100]`:
 - Mean = `22`
 - Median = `3`
 
-The outlier pulls the mean far away from a typical value, while the median remains stable. This is why it is important to inspect both—especially with skewed, noisy, or real-world data.
+The outlier pulls the mean far away from a typical value, while the median remains stable. This is why it is important to inspect both-especially with skewed, noisy, or real-world data.
 
 ### 2. Probability fundamentals
 
@@ -72,9 +72,9 @@ P(A | B) = P(B | A) × P(A) / P(B)
 
 Bayes' theorem updates an existing belief after observing new evidence. It connects:
 
-- **Prior** — belief before seeing the evidence
-- **Likelihood** — probability of the evidence under a hypothesis
-- **Posterior** — updated belief after seeing the evidence
+- **Prior** - belief before seeing the evidence
+- **Likelihood** - probability of the evidence under a hypothesis
+- **Posterior** - updated belief after seeing the evidence
 
 ### 3. Important probability distributions
 
@@ -167,9 +167,9 @@ Pearson correlation ranges from `-1` to `+1`:
 - Near `0`: weak or no linear relationship
 - Near `-1`: strong negative linear relationship
 
-Correlation does not prove causation. Ice-cream sales and drowning incidents may rise together because both are influenced by warm weather. Highly correlated features can also carry redundant information, but they should not be dropped automatically—the decision depends on the model, objective, and validation results.
+Correlation does not prove causation. Ice-cream sales and drowning incidents may rise together because both are influenced by warm weather. Highly correlated features can also carry redundant information, but they should not be dropped automatically-the decision depends on the model, objective, and validation results.
 
-## Mini-project — Softmax and cross-entropy from scratch
+## Mini-project - Softmax and cross-entropy from scratch
 
 ```python
 import numpy as np
@@ -203,7 +203,7 @@ This combines the same core operations that frameworks such as PyTorch provide i
 
 - **Linear algebra:** vectors, matrices, transformations, and data shapes
 - **Probability and statistics:** distributions, uncertainty, confidence, and loss
-- **Next — Calculus:** gradients and how models improve their parameters
+- **Next - Calculus:** gradients and how models improve their parameters
 
 Together, these ideas explain the core training loop: represent data, calculate probabilistic predictions, measure error, and update the parameters.
 
@@ -226,7 +226,7 @@ Try answering these before opening the answer key.
 1. For the data `[1, 2, 3, 4, 100]`, what are the mean and median? Which better represents a typical value, and why?
 2. What does `P(spam | contains “FREE”)` mean in plain English?
 3. Which function converts multiclass logits such as `[1.2, 0.4, 2.1]` into probabilities that sum to 1?
-4. If two features have a Pearson correlation of `-0.95`, what can—and cannot—be concluded?
+4. If two features have a Pearson correlation of `-0.95`, what can-and cannot-be concluded?
 5. Why does cross-entropy heavily penalize assigning a very small probability to the true class?
 
 <details>

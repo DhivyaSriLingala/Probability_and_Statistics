@@ -254,9 +254,6 @@ For the true class, the loss contains `−log(p)`. As `p` approaches zero, `log(
 
 </details>
 
-## Learning artifact
-
-The complete hands-on work is available in [Probability and Statistics.ipynb](./Probability%20and%20Statistics.ipynb).
 
 ## Key takeaway
 
